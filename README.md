@@ -1,6 +1,6 @@
 # Rube MCP Server
 
-Rube is a **Model‑Context‑Protocol (MCP) server** built on the Composio integration platform. It connects AI chat tools to more than **500 business and productivity applications** – things like Gmail, Slack, Notion, GitHub, Linear, Airtable, and many others. Once installed, you can ask your AI tool to perform everyday tasks (e.g. “send an email to the latest customer,” “create a Linear issue,” “update my Notion database,” or “post an update to Slack”) and Rube will securely talk to the relevant apps on your behalf. Instead of writing complex API integrations yourself, you just tell your AI assistant what you want to do.
+[Rube](https://rube.composio.dev) is a **Model‑Context‑Protocol (MCP) server** built on the Composio integration platform. It connects AI chat tools to more than **500 business and productivity applications** – things like Gmail, Slack, Notion, GitHub, Linear, Airtable, and many others. Once installed, you can ask your AI tool to perform everyday tasks (e.g. “send an email to the latest customer,” “create a Linear issue,” “update my Notion database,” or “post an update to Slack”) and Rube will securely talk to the relevant apps on your behalf. Instead of writing complex API integrations yourself, you just tell your AI assistant what you want to do.
 
 ## Why Rube?
 
