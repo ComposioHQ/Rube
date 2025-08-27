@@ -14,7 +14,7 @@
 
 1. **An AI client that supports the MCP protocol** – Rube provides instructions for Cursor, Claude Desktop, VS Code, Claude Code and any generic MCP client.
 2. **Composio or client account** – Rube uses Composio’s authentication and you may need to sign in during setup.
-3. **API/credential access to the apps you want to automate** – many integrations use OAuth; others require an API key. Rube can handle both.
+3. **Access to the apps you want to automate** – Rube will prompt you to authenticate using OAuth or an API key. You can connect multiple apps at once.
 
 ## Installing Rube
 
