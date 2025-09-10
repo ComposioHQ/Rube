@@ -45,7 +45,7 @@ Click this link: [cursor://anysphere.cursor-deeplink/mcp/install?name=rube&confi
 2. In the "Install MCP server?" dialog choose **Rube** with the following details:
   - **Name** – `rube`
   - **Type** – `streamableHttp`
-  - **URL** – `https://rube.composio.dev/mcp?agent=cursor`
+  - **URL** – `https://rube.app/mcp?agent=cursor`
 3. Confirm the installation. Rube will show as "Needs login"; click this to authenticate.
 4. Follow the sign‑in flow in your browser and authorise the apps you wish to use.
 

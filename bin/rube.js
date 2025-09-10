@@ -221,7 +221,7 @@ async function setupCursor() {
   console.log('2. In the dialog, enter:');
   console.log('   • Name: rube');
   console.log('   • Type: streamableHttp');
-  console.log('   • URL: https://rube.composio.dev/mcp?agent=cursor');
+  console.log('   • URL: https://rube.app/mcp?agent=cursor');
   console.log('3. Confirm installation and authenticate\n');
   
   const { openLink } = await inquirer.prompt([
