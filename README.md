@@ -16,32 +16,59 @@
 2. **Composio or client account** – Rube uses Composio’s authentication and you may need to sign in during setup.
 3. **Access to the apps you want to automate** – Rube will prompt you to authenticate using OAuth or an API key. You can connect multiple apps at once.
 
+## Quick Start (npm)
+
+Install the npm package for easy setup:
+
+```bash
+npm install -g @composio/rube
+rube setup
+```
+
+Or use npx without installing:
+
+```bash
+npx @composio/rube setup
+```
+
+The setup wizard will guide you through configuring Rube for your AI client.
+
 ## Installing Rube
 
 ### Cursor
 
-1. In Cursor, click **Add MCP Server** (e.g. from the “MCP Tools” sidebar).
-2. In the “Install MCP server?” dialog choose **Rube** with the following details:
+**Option 1 - One-click install (recommended):**
+Click this link: [cursor://anysphere.cursor-deeplink/mcp/install?name=rube&config=eyJ1cmwiOiJodHRwczovL3J1YmUuY29tcG9zaW8uZGV2L21jcD9hZ2VudD1jdXJzb3IifQ%3D%3D](cursor://anysphere.cursor-deeplink/mcp/install?name=rube&config=eyJ1cmwiOiJodHRwczovL3J1YmUuY29tcG9zaW8uZGV2L21jcD9hZ2VudD1jdXJzb3IifQ%3D%3D)
 
+**Option 2 - Manual setup:**
+1. In Cursor, click **Add MCP Server** (e.g. from the "MCP Tools" sidebar).
+2. In the "Install MCP server?" dialog choose **Rube** with the following details:
   - **Name** – `rube`
   - **Type** – `streamableHttp`
-  - **URL** – `https://rube.app/?agent=cursor` .
-3. Confirm the installation. Rube will show as “Needs login”; click this to authenticate.
-4. Follow the sign‑in flow in your browser and authorise the apps you wish to use. When the connection shows as authenticated you can start using natural‑language commands in Cursor chat.
+  - **URL** – `https://rube.composio.dev/mcp?agent=cursor`
+3. Confirm the installation. Rube will show as "Needs login"; click this to authenticate.
+4. Follow the sign‑in flow in your browser and authorise the apps you wish to use.
 
 ### Claude Desktop
 
-1. Copy the Rube MCP URL (`https://rube.app/mcp` – you can click **Copy** in the installation modal).
+**For Pro/Max Plans (manual setup):**
+1. Copy the Rube MCP URL (`https://rube.app/mcp`).
 2. Open **Claude Desktop** → **Settings** → **Connectors**. Choose **Add custom connector**.
 3. Enter a name (e.g. `Rube`), paste the MCP URL, and click **Add**. You may need to confirm that you trust the connector.
-4. Click **Connect** next to the new connector and complete the web‑based authentication. After connecting, you can start using Rube inside Claude Desktop to access hundreds of apps.
+4. Click **Connect** next to the new connector and complete the web‑based authentication.
+
+**For Free/Pro Plans (auto setup):**
+```bash
+npx @composio/mcp@latest setup "https://rube.app/mcp" "rube" --client claude
+```
+Then restart Claude Desktop.
 
 ### VS Code (ChatGPT or Claude Extensions)
 
 1. Open a terminal and run the setup command:
 
 ```
-npx @composio/mcp@latest setup "https://rube.app/mcp" "rube" --client vscode
+npx mcp-remote "https://rube.app/mcp"
 ```
 
 This installs the Rube MCP server into VS Code.
