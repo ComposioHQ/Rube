@@ -4,7 +4,7 @@
   "description": "Rube is a Model Context Protocol (MCP) server that connects your AI tools to 500+ apps like Gmail, Slack, GitHub, and Notion. Simply install it in your AI client, authenticate once with your apps, and start asking your AI to perform real actions like 'Send an email' or 'Create a task.'",
   "main": "index.js",
   "bin": {
-    "rube": "./bin/rube.js"
+    "rube": "bin/rube.js"
   },
   "scripts": {
     "postinstall": "node ./scripts/postinstall.js",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ComposioHQ/rube"
+    "url": "git+https://github.com/ComposioHQ/rube.git"
   },
   "homepage": "https://rube.app",
   "bugs": {
