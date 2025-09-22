@@ -11,7 +11,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://rube.app/mcp"
+      "url": "https://rube.composio.dev/mcp"
     }
   ]
 }
