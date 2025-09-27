@@ -123,6 +123,12 @@ Rube will interpret the intent, fetch or send data via the appropriate APIs and 
 - **Unsupported apps** – If you need an integration that isn’t yet supported, you can request it through the Composio community or contact sales for enterprise solutions.
 - **Help** – For problems or feedback, email **support@composio.dev**.
 
+## Related Tools
+
+### Performance Optimization
+
+- **[NCP (Natural Context Protocol)](https://github.com/portel-dev/ncp)** – A complementary MCP orchestrator focused on performance optimization. While Rube excels at providing access to 500+ business applications, NCP specializes in token overhead reduction (94.8% savings) and O(1) complexity scaling. Perfect for teams using multiple MCP servers who want both comprehensive app connectivity AND enterprise-grade performance optimization.
+
 ## Summary
 
 Rube abstracts away the complexity of dealing with dozens of APIs and provides a unified, chat‑first interface to your favourite tools. Install it in your MCP‑compatible client, authenticate the apps you care about, and start automating everyday tasks with simple plain‑English commands. Because Rube is built on Composio’s trusted infrastructure, it’s easy to get started (setup takes under five minutes) and safe for teams of any size.
